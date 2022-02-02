@@ -1,0 +1,15 @@
+.edit-btn {
+    background-color: azure;
+    margin-bottom: 2px !important;
+
+}
+
+.delete-btn {
+    background-color: brown;
+}
+
+.user-email {
+    max-width: 100px;
+    overflow: auto;
+    word-break: break-all;
+}

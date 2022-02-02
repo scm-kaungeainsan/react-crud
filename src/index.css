@@ -1,0 +1,79 @@
+body {
+	background: black;
+}
+.container {
+	background: #eeeeee;
+	padding: 0;
+}
+button,
+.button {
+	margin-bottom: 0 !important;
+	/* margin-right: .5rem; */
+	background-color: rgb(25,28,38);
+	color: #f9da8c;
+}
+button:hover, .button:hover {
+	background-color: black;
+	opacity: 0.8;
+	color: #d2c79a;
+}
+/* button:active, .button:active {
+	background-color: white;
+	color: #d2c79a;
+} */
+button:focus, .button:focus {
+	/* background-color: rgb(25,28,38);
+	opacity: 0.5;
+	color: #d2c79a; */
+	background-color: goldenrod;
+    /* opacity: 0.8; */
+    color: black;
+}
+.main-body {
+	width: 100%;
+	display: flex;
+}
+.header-menu {
+	width: 30%;
+	/* border-right: 1px solid #eccb6b;
+	border-left: 1px solid #eccb6b; */
+}
+[type=color], [type=date], [type=datetime], [type=datetime-local], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=url], [type=week], [type=time], select, textarea{
+	border: 1px solid #242020;
+}
+[type=submit] {
+	background-color: rgb(25,28,38);
+}
+[type=submit]:hover{
+	background-color: rgb(25,28,38);
+	opacity: 0.5;
+}
+
+.main-panel {
+	width: 60%;
+	margin-left: 25px;
+}
+
+thead th {
+    border-bottom: 2px solid #2a1e1e;
+}
+
+td {
+    border-bottom: 1px solid #3e3232;
+}
+
+.MuiDialog-paperWidthSm {
+	min-width: 420px;
+}
+
+@keyframes animatebottom { 
+    from {bottom:-300px;opacity:0} to {bottom:0;opacity:1}
+}
+
+.main-pannel-marin-top {
+    margin-top: 89px;
+}
+.svg-inline--fa {
+	font-size: 25px;
+	margin-right: 10px;
+}
